@@ -12,7 +12,7 @@ function ToDo({ task }) {
 
   return (
     <div className="todo-item">
-      <input type="checkbox" onChange={checkTask} />
+      <input type="checkbox" checked={taskDone} onChange={checkTask} />
       <p className={isTaskDone}>{task}</p>
     </div>
   );
