@@ -24,6 +24,20 @@ function ImageSlider() {
     >
       <button onClick={prevImage}>Previous</button>
       <button onClick={nextImage}>Next</button>
+      <div className="index-circles">
+        <span>
+          <i class="fa-regular fa-circle" onClick={() => setIndex(0)}></i>
+        </span>
+        <span>
+          <i class="fa-regular fa-circle" onClick={() => setIndex(1)}></i>
+        </span>
+        <span>
+          <i class="fa-regular fa-circle" onClick={() => setIndex(2)}></i>
+        </span>
+        <span>
+          <i class="fa-regular fa-circle" onClick={() => setIndex(3)}></i>
+        </span>
+      </div>
     </div>
   );
 }
