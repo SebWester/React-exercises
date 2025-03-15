@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./components/Card";
 import ImageSlider from "./components/ImageSlider";
+import ToDo from "./components/ToDo";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,12 @@ function App() {
       <Card title="Title three" text="Third card note" />
       <Card title="Title four" text="Fourth card note" />
       <ImageSlider />
+
+      <div>
+        <ToDo task="Task One" />
+        <ToDo task="Task Two" />
+        <ToDo task="Task Three" />
+      </div>
     </div>
   );
 }

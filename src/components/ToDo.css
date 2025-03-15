@@ -1,0 +1,19 @@
+.todo-item {
+  width: 200px;
+  margin: 20px auto;
+  padding: 8px;
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.todo-item input {
+  margin-right: 20px;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+.task-not-done {
+  text-decoration: none;
+}
