@@ -1,0 +1,24 @@
+.image-slider {
+  width: 600px;
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15%;
+}
+
+.image-slider button {
+  height: fit-content;
+  font-size: 1.3em;
+  margin: auto 5px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.image-slider button:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+}

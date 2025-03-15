@@ -1,0 +1,26 @@
+.card {
+  background: rgb(70, 70, 70);
+  width: 300px;
+  height: fit-content;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.card button {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card button:hover {
+  cursor: pointer;
+  background: lightgray;
+}
+
+.card-hide {
+  display: none;
+}
+
+.card-note {
+  padding: 10px;
+}
